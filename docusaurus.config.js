@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Charticulator',
+  tagline: 'Open source version of visual',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -66,9 +66,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Charticulator',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Charticulator logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -78,9 +78,13 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            label: 'Blog',
+            href: 'https://ilfat-galiev.im/',
+            position: 'left'
+          },
+          {
+            href: 'https://github.com/zBritva/charticulator-doc',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,34 +106,42 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/groups/12540722/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Charticulator app',
+                href: 'https://ilfat-galiev.im/charticulator'
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Charticulator original web site',
+                href: 'https://charticulator.com/'
+              }
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Charticulator sources',
+                href: 'https://github.com/zBritva/charticulator',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Visual sources',
+                href: 'https://github.com/zBritva/charticulator-visual-community',
               },
+              {
+                label: 'Ilfat Galiev',
+                href: 'https://ilfat-galiev.im/'
+              },
+              {
+                label: 'Charticulator (original) sources',
+                href: 'https://github.com/microsoft/charticulator',
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Charticulator Conmmunity version, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
