@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcharticulator_doc=self.webpackChunkcharticulator_doc||[]).push([[308],{1887:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/charticulator-doc/blog/tags/docusaurus","allTagsPath":"/charticulator-doc/blog/tags","count":4,"unlisted":false}')}}]);
